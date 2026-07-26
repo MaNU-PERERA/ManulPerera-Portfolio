@@ -8625,3 +8625,34 @@ input, select, textarea {
 .contact-list p {
     margin: 0 0 1em 0;
 }
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #4a90e2;
+}
+
+.menu i {
+    margin-right: 6px;
+}
