@@ -8614,3 +8614,14 @@ input, select, textarea {
 .software-grid li {
     margin-bottom: 0.3em;
 }
+
+
+
+.contact-list {
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-list p {
+    margin: 0 0 1em 0;
+}
